@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkyTech Aviation offers expert aircraft maintenance and services, including engine inspections, avionics upgrades, and more.">
+    <title>SkyTech Aviation - Expert Aircraft Maintenance & Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Header Section -->
+        <header class="header-section">
+            <img src="images/skytech-logo.jpg" alt="SkyTech Aviation Logo" class="logo">
+            <h1>SkyTech Aviation</h1>
+        <!-- Navigation Bar -->
+        <nav class="nav-bar" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#schedule">Schedule Maintenance</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Info</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Services Section -->
+            <section id="services">
+                <h2 class="section-heading">Our Services</h2>
+                <div class="service-list">
+                    <div class="service"><h3>Engine Services</h3><img src="images/engine.jpg" alt="Engine Services"><p>Expert engine maintenance services to ensure peak performance.</p></div>
+                    <div class="service"><h3>Aircraft Inspections</h3><img src="images/inspection.jpg" alt="Aircraft Inspections"><p>Comprehensive inspections for enhanced safety and compliance.</p></div>
+                    <div class="service"><h3>Avionics Upgrades</h3><img src="images/avionics.jpg" alt="Avionics Upgrades"><p>State-of-the-art avionics solutions for modern aviation needs.</p></div>
+                    <div class="service"><h3>Tire Replacements & Brake Wear Checks</h3><img src="images/tire.jpg" alt="Tire Replacements & Brake Wear Checks"><p>Regular tire and brake inspections to ensure safe landings.</p></div>
+                    <div class="service"><h3>Aircraft Washing</h3><img src="images/washing.jpg" alt="Aircraft Washing"><p>Thorough exterior and interior washing to maintain cleanliness.</p></div>
+                    <div class="service"><h3>Structure Repairs</h3><img src="images/structure.jpg" alt="Structure Repairs"><p>Comprehensive repairs to maintain aircraft integrity and safety.</p></div>
+                    <div class="service"><h3>Hydraulic Checks</h3><img src="images/hydraulic.jpg" alt="Hydraulic Checks"><p>Regular hydraulic system checks for smooth aircraft operation.</p></div>
+                    <div class="service"><h3>Pack Checks</h3><img src="images/pack.jpg" alt="Pack Checks"><p>Inspection of air conditioning and ventilation packs for comfort.</p></div>
+                    <div class="service"><h3>Interior Inspections & Services</h3><img src="images/interior.jpg" alt="Interior Inspections & Services"><p>Detailed interior checks to maintain passenger safety and comfort.</p></div>
+                </div>
+            </section>
+
+            <!-- Schedule Maintenance Section -->
+            <section id="schedule">
+                <h2 class="section-heading">Schedule Maintenance</h2>
+                <form action="#" method="post">
+                    <div class="form-fields">
+                        <div class="form-group"><label for="name">Full Name:</label><input type="text" id="name" name="name" required></div>
+                        <div class="form-group"><label for="email">Email:</label><input type="email" id="email" name="email" required></div>
+                        <div class="form-group">
+                            <label for="service">Select Service:</label>
+                            <select id="service" name="service" required>
+                                <option value="engine-services">Engine Services</option>
+                                <option value="inspection">Aircraft Inspection</option>
+                                <option value="avionics-upgrade">Avionics Upgrade</option>
+                                <option value="tire-brake">Tire Replacements & Brake Checks</option>
+                                <option value="washing">Aircraft Washing</option>
+                                <option value="structure">Structure Repairs</option>
+                                <option value="hydraulic">Hydraulic Checks</option>
+                                <option value="pack">Pack Checks</option>
+                                <option value="interior">Interior Inspections & Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group"><label for="date">Preferred Date:</label><input type="date" id="date" name="date" required></div>
+                    </div>
+                    <div class="form-submit"><button type="submit">Submit</button></div>
+                </form>
+            </section>
+
+            <!-- About Us Section -->
+            <section id="about">
+                <h2 class="section-heading">About Us</h2>
+                <img src="images/about.jpg" alt="SkyTech Aviation Team" class="about-image">
+                <p>SkyTech Aviation is a premier aircraft maintenance and services provider, dedicated to ensuring the safety and efficiency of your aircraft. With a team of experienced technicians and state-of-the-art equipment, we offer a wide range of maintenance solutions tailored to your aviation needs.</p>
+                <p>Our mission is to deliver top-tier maintenance services with a commitment to quality, safety, and customer satisfaction. Whether it’s routine maintenance, inspections, or advanced avionics upgrades, SkyTech Aviation is your trusted partner in aviation excellence.</p>
+            </section>
+        </main>
+
+        <!-- Contact Information -->
+        <footer class="contact-section" id="contact">
+            <h2 class="section-heading">Contact Information</h2>
+            <p>Email: support@skytechaviation.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Address: 123 Aviation Lane, Flight City</p>
+        </footer>
+    </div>
+</body>
+</html>
